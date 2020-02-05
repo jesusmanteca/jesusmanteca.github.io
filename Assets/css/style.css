@@ -1,0 +1,107 @@
+html {
+    background: rgb(218, 217, 216);
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: whitesmoke;
+    top: 0;
+    position: relative;
+}
+.NavTitle {
+    float: left;
+    padding: 10px;
+    background-color: rgb(16, 146, 146);
+    font-size: xx-large;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+    background: white;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+}
+ul {
+    float: right;
+    margin: 10px;
+    justify-content: center;
+    color: lightgray;
+}
+li {
+    float: left;
+    list-style: none;
+    padding: 5px;
+}
+.NavItemSeparator {
+    border-right: 1px solid lightgrey;
+    border-right-width: 2px;
+}
+section {
+    padding: 20px;
+    background:white;
+    max-width: 960px;
+    margin: 20px auto;
+    border: 1px solid lightgray;
+}
+.aboutmewrap {
+    height: fit-content;
+}
+.portfoliosectionwrap {
+    height: 300px;
+}
+img {
+    width: 200px;
+    margin-right: 10px;
+    float: left;
+}
+.photosec {
+    text-align: center;
+    height: 300px;
+    border: 1px solid lightgray;
+    justify-content: center;
+}
+.Box1 {
+    float: left;
+    background-color: mediumaquamarine;
+}
+footer {
+    background: gray;
+    margin: 20px 0 0 0;
+    border-top: 6px solid rgb(16, 146, 146);
+    color: whitesmoke
+}
+.CopyrightText {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: xx-small;
+}
+h1 {
+    color:  rgb(16, 146, 146);
+    justify-content: center;
+}
+.biodescription {
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.PortfolioSection {
+    max-height: fit-content;
+    float: left;
+}
+
+.Textbox {
+    position: absolute;
+}
